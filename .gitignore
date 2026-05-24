@@ -1,0 +1,25 @@
+# Dependencias
+node_modules/
+
+# Archivos de datos (generados en runtime — NO subir al repo)
+turnData.json
+historyData.json
+siloHistoryData.json
+dailySummary.json
+
+# Carpeta de exportaciones generadas
+exports/
+
+# Variables de entorno
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# PM2
+.pm2/

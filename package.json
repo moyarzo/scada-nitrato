@@ -1,0 +1,21 @@
+{
+  "name": "scada-silos-nitrato",
+  "version": "1.0.0",
+  "description": "SCADA dashboard para monitoreo de silos de Nitrato de Amonio - Los Bronces",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "mqtt": "^5.3.4",
+    "exceljs": "^4.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "MOH (marco.oyarzo@enaex.com)",
+  "license": "MIT"
+}
